@@ -1,0 +1,115 @@
+/* ===== TOÀN TRANG ===== */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #e9f6ee, #fafafa, #e9f6ee);
+  color: #333;
+}
+
+/* ===== HEADER ===== */
+header {
+  background-color: #2e8b57;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 28px;
+  letter-spacing: 1px;
+}
+
+/* ===== THANH ĐIỀU HƯỚNG ===== */
+nav ul {
+  list-style-type: none;
+  margin: 10px 0 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 8px 14px;
+  border-radius: 6px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+nav a:hover {
+  background-color: #1e6840;
+  transform: scale(1.05);
+}
+
+/* ===== PHẦN CHÍNH ===== */
+main {
+  max-width: 1000px;
+  margin: 30px auto;
+  background-color: #f9f9f9;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Tiêu đề vùng */
+section h2 {
+  color: #2e8b57;
+  border-bottom: 2px solid #2e8b57;
+  padding-bottom: 6px;
+  margin-bottom: 20px;
+}
+
+/* Tiêu đề nhỏ */
+section h3 {
+  margin-top: 25px;
+  color: #1c5534;
+}
+
+/* Đoạn văn */
+section p {
+  line-height: 1.7;
+  text-align: justify;
+  margin-bottom: 10px;
+}
+
+/* ===== ẢNH ===== */
+section img {
+  display: inline-block;
+  vertical-align: middle;
+  width: 30%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin: 6px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+section img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* ===== LIÊN KẾT TRONG NỘI DUNG ===== */
+a {
+  color: #2e8b57;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ===== FOOTER ===== */
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 18px 0;
+  margin-top: 30px;
+  font-size: 15px;
+}
